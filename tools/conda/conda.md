@@ -10,6 +10,7 @@
 
 ### Export an environment to a YAML file
 `conda env export > <yaml_file>`
+`conda env export --from-history  --name env > environment.yml`
 
 ### Clone an environment
 `conda create --name <new_env_name> --clone <existing_env_name>`
